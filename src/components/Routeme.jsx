@@ -21,7 +21,7 @@ function Routeme() {
           <Route path="/addstaff" element={<AddStaff />} />
           <Route path="/register" element={<Register />} />
           <Route path="/report" element={<Report />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Employees" element={<Employees />} />
         </Routes>
     
