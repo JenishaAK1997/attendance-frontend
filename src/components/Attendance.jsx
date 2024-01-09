@@ -15,7 +15,7 @@ const Attendance = () => {
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const response = await fetch('http://localhost:3000/staffs');
+        const response = await fetch('https://attendance-y0bi.onrender.com/staffs');
         if (response.ok) {
           const data = await response.json();
           setEmployees(data);
@@ -36,7 +36,7 @@ const Attendance = () => {
 
     try {
       // Send a POST request to the server endpoint
-      const response = await fetch('http://localhost:3000/attendance', {
+      const response = await fetch('https://attendance-y0bi.onrender.com/attendance', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
