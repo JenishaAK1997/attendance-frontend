@@ -10,7 +10,7 @@ const Home = () => {
 
     // Make API request to verify user
     try {
-      const response = await fetch('http://localhost:3000/login', {
+      const response = await fetch('https://attendance-y0bi.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
