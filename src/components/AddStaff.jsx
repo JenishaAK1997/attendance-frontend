@@ -16,7 +16,7 @@ const AddStaff = () => {
 
     try {
       // Send a POST request to the server endpoint
-      const response = await fetch('http://localhost:3000/addStaff', {
+      const response = await fetch('https://attendance-y0bi.onrender.com/addStaff', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
